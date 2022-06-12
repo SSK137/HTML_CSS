@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .IMG {
+    background: #4ce0d4;
+    flex: 1;
+  }
+  .DIV {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+  .content > article {
+    background: #4ce0d4;
+    flex: 3;
+    min-height: 60vh;
+    padding: 2em;
+  }
+  .content > aside {
+      color: white;
+    background: rgb(19, 15, 19);
+    flex: 1;
+  }
+  header{
+    background: rgb(22, 248, 109);
+    height: 20vh;
+    text-align: center;
+
+  }
+   footer {
+    background: rgb(22, 248, 109);
+    height: 20vh;
+  }

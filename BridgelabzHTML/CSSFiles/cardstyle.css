@@ -1,0 +1,26 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardimg {
+    flex: 0 200px;
+    margin: 10px;
+    border: 2px solid rgb(59, 221, 167);
+    box-shadow: 3px 6px 3px  rgba(0,0,0,0.3);
+}
+
+.cardimg img {
+    max-width: 100%;
+  }
+
+.cardimg .text {
+    padding: 0 20px 20px;
+}
+
+.cardimg .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
